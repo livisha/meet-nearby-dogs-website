@@ -1,2 +1,1 @@
-# my-first-website
-html,css,and bootstrap
+TinDog Starting Files

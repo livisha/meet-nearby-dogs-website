@@ -1,0 +1,149 @@
+.body {
+  font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Montserrat-Bold;
+}
+
+p {
+  color: grey;
+}
+.biggest-heading{
+  font-family:sans-serif-dark;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 3.5rem;
+  left: 20%;
+  text-shadow: 2px 2px black;
+
+}
+.section-heading{
+  font-size: 4rem;
+  line-height: 2;
+}
+.navbar-img{
+  width:15%;
+  height: auto;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: skyblue;
+  color: #fff;
+}
+
+
+.col-lg-6 {
+  padding: 4.5rem;
+}
+
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.img-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+#features {
+  padding: 3% 7% 15%;
+  background-color: white;
+position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #aacfcf;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: skyblue;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: skyblue;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 4rem;
+  line-height: 2;
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  background-color: skyblue;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-logo{
+  padding:3% 2%;
+}
+.pricing-text{
+  font-size: 4rem;
+  line-height: 2;
+}
+
+#cta{
+  background-color:skyblue;
+  color:white;
+  padding:7% 15%;
+  text-align: center;
+}
+.cta-heading{
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin:20px 10px;
+}
+@media (max-width:1024px) {
+  #title{
+    text-align: center;
+  }
+  .img-title{
+    position: static;
+    transform: rotate(0);
+  }
+}
